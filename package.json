@@ -19,9 +19,15 @@
   },
   "homepage": "https://github.com/Maiia2023/programming_tasks#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.2",
     "jest": "^29.6.1",
     "typescript": "^5.0.4"
+=======
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.0",
+    "jest": "^29.5.0"
+>>>>>>> a40bfe7 (Changed package-lock and package json files)
   }
 }
