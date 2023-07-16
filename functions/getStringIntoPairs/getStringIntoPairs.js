@@ -10,7 +10,7 @@ export const getStringIntoPairs = (str) => {
     };
   };
 
-  if (currentPair.length > 0) {
+  if (currentPair.length === 1) {
     pairs.push(currentPair + '_');
   };
 
