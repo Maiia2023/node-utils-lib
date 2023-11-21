@@ -12,9 +12,6 @@
     "alwaysStrict": true,
     "moduleResolution": "node",
     "resolveJsonModule": false,
-    "declaration": true,
-  },
-  "include": [
-    "src"
-  ]
+    "declaration": true
+  }
 }

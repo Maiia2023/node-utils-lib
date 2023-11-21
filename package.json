@@ -1,5 +1,5 @@
 {
-  "name": "programming_tasks",
+  "name": "node-utils-lib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maiia2023/programming_tasks.git"
+    "url": "git+https://github.com/Maiia2023/node-utils-lib.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maiia2023/programming_tasks/issues"
+    "url": "https://github.com/Maiia2023/node-utils-lib/issues"
   },
-  "homepage": "https://github.com/Maiia2023/programming_tasks#readme",
+  "homepage": "https://github.com/Maiia2023/node-utils-lib#readme",
   "devDependencies": {
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.2",
