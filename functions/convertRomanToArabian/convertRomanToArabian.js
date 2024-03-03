@@ -11,7 +11,7 @@ const CONVERTER = {
 
 /**
  * @function convertRomanToArabian
- * @param {string} romanNum 
+ * @param {string} romanNum
  * @returns {number}
  */
 
