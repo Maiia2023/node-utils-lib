@@ -1,7 +1,7 @@
 /**
  * @function getSpliting
- * @param {number} a 
- * @param {number} b 
+ * @param {number} a
+ * @param {number} b
  * @returns {number | undefined}
  */
 
@@ -15,7 +15,7 @@ export const getSpliting = (a, b) => {
     b > 0 &&
     Number.isInteger(b);
 
-  if (!isValidA || !isValidB || !Number.isInteger(a/b)) return;
+  if (!isValidA || !isValidB || !Number.isInteger(a / b)) return;
 
   return a / b;
 };
