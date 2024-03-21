@@ -1,11 +1,13 @@
-import {getSpliting} from './getSpliting.js';
+import { getSpliting } from './getSpliting.js';
 
-console.log(getSpliting('5', 5) ===  undefined);
-console.log(getSpliting(5, true) ===  undefined);
-console.log(getSpliting(-5, 5) ===  undefined);
-console.log(getSpliting(5, -5) ===  undefined);
-console.log(getSpliting(5, 0) ===  undefined);
-console.log(getSpliting(0, 5) ===  undefined);
-console.log(getSpliting(5, 3) ===  undefined);
-console.log(getSpliting(5, 5) === 1);
-console.log(getSpliting(15, 5) === 3);
+describe('getSpliting:', () => {
+  it('Unit test 1', () => { expect(getSpliting('5', 5)).toEqual(undefined); });
+  it('Unit test 2', () => { expect(getSpliting(5, true)).toEqual(undefined); });
+  it('Unit test 3', () => { expect(getSpliting(-5, 5)).toEqual(undefined); });
+  it('Unit test 4', () => { expect(getSpliting(5, -5)).toEqual(undefined); });
+  it('Unit test 5', () => { expect(getSpliting(5, 0)).toEqual(undefined); });
+  it('Unit test 6', () => { expect(getSpliting(0, 5)).toEqual(undefined); });
+  it('Unit test 7', () => { expect(getSpliting(5, 3)).toEqual(undefined); });
+  it('Unit test 8', () => { expect(getSpliting(5, 5)).toEqual(1); });
+  it('Unit test 9', () => { expect(getSpliting(15, 5)).toEqual(3); });
+});
