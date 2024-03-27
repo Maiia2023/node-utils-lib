@@ -5,18 +5,17 @@
  */
 
 export const camelCase = (str) => {
-  if (typeof str !== 'string')
-    return '';
-
   const words = str.split(/[-_]/);
-  const camelCaseText = words.map((word, index) => {
-    if (index === 0) {
-      const constant1 = word.charAt(0);
-      const constant2 = word.slice(1);
-      return `${constant1}${constant2}`;
-    }
-    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
-  });
+  let camelCaseStr = '';
 
-  return camelCaseText.join('');
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    if (i === 0) {
+      camelCaseStr += word;
+    } else {
+      camelCaseStr += word.charAt(0).toUpperCase() + word.slice(1);
+    }
+  }
+
+  return camelCaseStr;
 };
