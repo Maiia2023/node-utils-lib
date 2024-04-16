@@ -19,10 +19,28 @@
   },
   "homepage": "https://github.com/Maiia2023/node-utils-lib#readme",
   "devDependencies": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 65b40c1038abeecbdfb37f9b840e984beadc22ed
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.2",
     "eslint": "^8.52.0",
     "jest": "^29.6.1",
+<<<<<<< HEAD
+=======
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
+>>>>>>> 175e603 (Added Jest library for tests)
+=======
+>>>>>>> 65b40c1038abeecbdfb37f9b840e984beadc22ed
     "typescript": "^5.0.4"
+=======
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.0",
+    "jest": "^29.5.0"
+>>>>>>> a40bfe7 (Changed package-lock and package json files)
   }
 }
